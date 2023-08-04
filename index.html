@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+    <title>Zarina`s Survey Form</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <main>
+      <h1 id='title'>Zarina`s Survey Form</h1>
+      <p id='description'>Thank you for taking the time to help me improve the channel</p>
+      <form id='survey-form'>
+        <label for='name' id='name-label'>Name 
+          <input id='name' type='text' placeholder='Enter your name' required>
+        </label>
+        <label for='email' id='email-label'>Email 
+          <input id='email' type='email' placeholder='Enter your Email' required>
+        </label>
+        <label for='number' id='number-label'>Age 
+          <input id='number' type='number' placeholder='Age' min='18' max='70' required></label>
+        <label for='dropdown'>How did you discover my YouTube channel?
+          <select id='dropdown'>
+            <option value=''>(select one)</option>
+            <option value='1'>YouTube search</option>
+            <option value='2'>Suggested videos</option>
+            <option value='3'>Shorts feed</option>
+            <option value='4'>Recommended by a friend</option>
+            <option value='5'>Social media</option>
+            <option value='6'>Other</option>
+          </select>
+        </label>
+How often do you watch videos on my YouTube channel?
+<label for='daily'><input id='daily' type='radio' name='watch-frequency' value='Daily'> Daily</label> 
+<label for='several-times'><input id='several-times' type='radio' name='watch-frequency' value='Several times a week'> Several times a week</label> 
+<label for='once'><input id='once' type='radio' name='watch-frequency' value='Once a week'> Once a week</label> 
+<label for='occasionally'><input id='occasionally' type='radio' name='watch-frequency' value='Occasionally'> Occasionally</label> 
+<label for='rarely'><input id='rarely' type='radio' name='watch-frequency' value='Rarely'> Rarely</label> 
+Which types of videos do you enjoy the most on my channel?
+<label for='educational'><input id='educational' type='checkbox' value='Educational content'> Educational content</label> 
+<label for='entertainmemt'><input id='entertainmemt' type='checkbox' value='Entertainment'> Entertainment</label> 
+<label for='tutorials'><input id='tutorials' type='checkbox' value='Tutorials'> Tutorials</label> 
+<label for='reviews'><input id='reviews' type='checkbox' value='Product reviews'> Product reviews</label> 
+<label for='vlogs'><input id='vlogs' type='checkbox' value='Vlogs'> Vlogs</label> 
+<label for='preference'>What topics or themes would you like to see more of on my channel? <textarea></textarea>
+<input id='submit' type='submit'>
+      </form>
+    </main>
+  </body>
+</html>
